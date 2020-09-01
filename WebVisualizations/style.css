@@ -1,0 +1,118 @@
+/* format body */
+body{
+    background-color: whitesmoke;
+    }
+
+/* format nav bar */
+.navbar{
+    max-height: 57px;
+    background-color: white;
+    font-size: 15px;
+    }
+.navigation .navbar-brand{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: inherit;
+    background-color: teal;
+    }
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color: red !important;
+    }
+.dropdown-item{
+    color: slategray !important;
+    }
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:whitesmoke !important;
+    }
+a{
+    color: slategray;
+    font-size: 15px;
+    }
+.nav-link:hover{
+    background-color:whitesmoke !important;
+    }
+.navbar-brand:hover{
+    color: slategray !important;
+    }
+/* change navbar on collapse */
+@media (max-width: 990px){
+    nav.navbar {
+        background: teal;
+        max-height: 200px;
+        }
+    #navbarNavDropdown {
+        background: white;
+        }
+    .dropdown-item {
+    color: red    
+    }        
+  } 
+  
+
+@media (max-width: 990px) {
+    .container {
+    background: white;
+    }
+  }  
+@media (max-width: 990px) {
+    body {
+    background-color: white;
+    }
+  } 
+
+/* format title class  */
+.title{
+    color: #0BADA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 25px;
+    }
+  */
+/* format paragraph*/
+p{
+    color: #6D8092;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+
+/* format box class */
+.box {
+    margin-top: 100px;
+    margin-bottom: 62px;
+    padding: 10px 20px 15px;
+    color:black;
+    background-color: white;
+    }
+
+/* format row class */
+.row{
+    align-items: top;
+    }
+
+/* format index page main secion */
+#main-section {
+    padding: 10px;
+    background-color: white;
+    }
+#main-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    }
+
+/* format all other images */
+img{
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    }
+img:hover {
+    outline-color:rgba(0, 128, 128, 0.5);
+    outline-style: solid;
+    outline-width: thin;
+    }
+  
