@@ -18,7 +18,7 @@ body{
     background-color: teal;
     }
 .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color: red !important;
+    background-color: whitesmoke
     }
 .dropdown-item{
     color: slategray !important;
@@ -39,16 +39,13 @@ a{
 /* change navbar on collapse */
 @media (max-width: 990px){
     nav.navbar {
-        /* background: teal; */
+        background: teal;
         max-height: 100%;
         }
     #navbarNavDropdown {
         background: white;
         max-height: 100%;
-        }
-    .dropdown-item {
-    color: red    
-    }      
+        }       
   } 
   
 
@@ -114,4 +111,8 @@ img:hover {
     outline-color:rgba(0, 128, 128, 0.5);
     outline-style: solid;
     outline-width: thin;
+    }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
     }
