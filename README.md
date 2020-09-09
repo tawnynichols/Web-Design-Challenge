@@ -20,3 +20,11 @@ Style sheet includes formatting for the following:
 - img
 - img hover
 
+Web pages include:
+- index.html (landing page)
+- max_temp.html
+- humidity.html
+- cloudiness.html
+- wind_speed.html
+- comparisons.html
+- data.html
