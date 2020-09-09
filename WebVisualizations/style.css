@@ -3,6 +3,13 @@ body{
     background-color: whitesmoke;
     }
 
+ /* change for body on collapse */
+@media (max-width: 990px) {
+    body {
+        background-color: white;
+    }
+}
+
 /* format nav bar */
 .navbar{
     max-height: 57px;
@@ -46,18 +53,7 @@ a{
         background: white;
         max-height: 100%;
         }       
-  } 
-  
-
-@media (max-width: 990px) {
-    /* .container {
-    background-color: whitesmoke;
-    } */
-    body {
-        background-color: white;
-    }
-}
-
+  }
 
 /* format title class  */
 .title{
@@ -111,8 +107,4 @@ img:hover {
     outline-color:rgba(0, 128, 128, 0.5);
     outline-style: solid;
     outline-width: thin;
-    }
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
     }
