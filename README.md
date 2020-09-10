@@ -30,3 +30,5 @@ Created" CSV to HTML" notbook to handle presenting a table of data in html:
 2. Convert to html
 3. Save to Table.htm
 4. Copy html and paste table into data.html
+
+Published site: https://tawnynichols.github.io/
