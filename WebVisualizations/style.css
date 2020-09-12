@@ -28,31 +28,36 @@ body{
     background-color: whitesmoke
     }
 .dropdown-item{
-    color: slategray !important;
+    color: slategray 
     }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:whitesmoke !important;
+    background-color:whitesmoke
     }
 a{
     color: slategray;
     font-size: 15px;
     }
 .nav-link:hover{
-    background-color:whitesmoke !important;
+    background-color:whitesmoke
     }
 .navbar-brand:hover{
-    color: slategray !important;
+    color: whitesmoke 
     }
 /* change navbar on collapse */
 @media (max-width: 990px){
     nav.navbar {
         background: teal;
         max-height: 100%;
+        padding: 0px;
         }
     #navbarNavDropdown {
         background: white;
         max-height: 100%;
-        }       
+        padding: 10px;
+        }   
+    .dropdown-menu {
+        border: 0px;
+    }        
   }
 
 /* format title class  */
